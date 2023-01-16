@@ -49,7 +49,7 @@ __jeefo_require_git;
 
 mkdir -p ~/cloud/dotfiles && cd ~/cloud/dotfiles
 if ! __is_git; then 
-  git clone https://github.com/je3f0o/dotfiles.git . || echo exit 1
+  git clone https://github.com/ariuk44/dotfiles.git . || echo exit 1
 fi
 
 source installer/setup.sh
